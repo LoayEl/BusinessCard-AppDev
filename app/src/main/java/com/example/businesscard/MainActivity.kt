@@ -64,7 +64,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BusinessCard(){
     Box(
-        modifier = Modifier.fillMaxSize().background(Color.White)
+        modifier = Modifier.fillMaxSize().background(Color.Black)
             ) {
         Image(painter = painterResource(R.drawable.backphoto),
             contentDescription = "Background",
@@ -119,11 +119,6 @@ fun BusinessCard(){
 
             }
         }
-
-
-
-
-
     }
 }
 
